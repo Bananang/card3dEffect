@@ -231,3 +231,22 @@ body::before {
   color: #fff;
   z-index: 999;
 }
+
+@media screen and (max-width: 680px) {
+
+  .card{
+    width: 250px;
+    height: 350px;
+  }
+
+  .card_back > .back_contents{
+    height: 37%;
+    transform: translateY(122px);
+    padding: 20px;
+  }
+
+  .card_back > .back_contents > .card_title{
+    font-size: 1.3rem;
+  }
+
+}
