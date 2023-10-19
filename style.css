@@ -168,7 +168,6 @@ body::before {
   background-repeat: no-repeat;
   transform: rotateY(180deg);
   transition: 0.4s ease;
-  filter: grayscale(70%);
 }
 
 .card_back::after{
